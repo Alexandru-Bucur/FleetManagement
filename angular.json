@@ -28,7 +28,10 @@
             "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images",
+                   "./node_modules/bootstrap-italia/svg",
+                   "./node_modules/bootstrap-italia/fonts"
 
             ],
             "styles": [
