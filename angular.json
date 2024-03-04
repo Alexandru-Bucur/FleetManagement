@@ -8,7 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "inlineStyle": true,
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -29,18 +29,22 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/images",
-                   "./node_modules/bootstrap-italia/svg",
-                   "./node_modules/bootstrap-italia/fonts"
+              "src/assets/images"
+
 
             ],
             "styles": [
-              "src/styles.scss",
-              "./node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css"
+              "src/styles.scss"
+              
             ],
             "scripts": [
+            
               "node_modules/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"
-            ]
+            ],
+            "stylePreprocessorOptions": { 
+              "includePaths": [ 
+                "src/styles"
+                ]}
           },
           "configurations": {
             "production": {
@@ -92,13 +96,13 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "sass",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }

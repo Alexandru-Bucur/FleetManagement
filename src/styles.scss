@@ -1,6 +1,10 @@
-@import "bootstrap-italia/src/scss/custom/functions";
-@import "bootstrap-italia/src/scss/custom/variables";
-@import "bootstrap/scss/mixins/utilities/";
+//Variables Custom
+@import "./_utilities.scss";
+//Variables Custom
+@import "./_variables.scss";
+//Import Boostrap (DO NOT DELETE)
+@import "../node_modules/bootstrap-italia/src/scss/bootstrap-italia.scss";
+
 
 
 
@@ -12,15 +16,6 @@ body {
 
 
 
-$utilities: (
-  "opacity": (
-    property: opacity,
-    values: (
-      0: 0,
-      25: .05,
-      50: .5,
-      75: .75,
-      100: 1,
-    )
-  )
-)
+
+
+

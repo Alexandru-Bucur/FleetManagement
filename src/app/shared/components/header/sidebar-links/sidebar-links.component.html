@@ -1,14 +1,13 @@
 <a
   [routerLink]="[route]"
-  routerLinkActive="active primary-bg-a5 opacity-25"
-  class="list-item medium text-center"
+  routerLinkActive="active bg-primary bg-opacity-10 text-active "
+  class="list-item medium text-center fw-normal primary-color-a5"
 >
-  <!-- <svg class="bg-light icon">
+  <svg class="icon icon-primary">
     <use
-      href="../../../../../assets/svg/home-svgrepo-com.svg"
+      [attr.href]="'assets/svg/sprites.svg#' + icon"
+      xlink:href="/bootstrap-italia/dist/svg/sprites.svg#it-tool"
     ></use>
-  </svg> -->
-  <img class="icon" [src]="'/assets/svg/' + icon + '.svg'" />
-  <!-- <img class="icon" src="../../../../../assets/svg/sprites.svg#$it-tool"> -->
-  <p class="">{{ content }}</p>
+  </svg>
+  <p class="primary-color-a6">{{ content }}</p>
 </a>

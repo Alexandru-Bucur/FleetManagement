@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule],
   templateUrl: './sidebar-links.component.html',
   styles: ``,
+  styleUrl: './sidebar-links.styles.scss',
 })
 export class SidebarLinksComponent {
   @Input()
