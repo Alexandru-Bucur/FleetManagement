@@ -3,11 +3,12 @@
   routerLinkActive="active primary-bg-a5 opacity-25"
   class="list-item medium text-center"
 >
-  <svg class="icon">
+  <!-- <svg class="bg-light icon">
     <use
-      href="/bootstrap-italia/dist/svg/sprites.svg#$it-tool"
-      xlink:href="/bootstrap-italia/dist/svg/sprites.svg#it-tool"
+      href="../../../../../assets/svg/home-svgrepo-com.svg"
     ></use>
-  </svg>
-  <p class="primary-color-a6">{{ content }}</p>
+  </svg> -->
+  <img class="icon" [src]="'/assets/svg/' + icon + '.svg'" />
+  <!-- <img class="icon" src="../../../../../assets/svg/sprites.svg#$it-tool"> -->
+  <p class="">{{ content }}</p>
 </a>
