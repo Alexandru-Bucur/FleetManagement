@@ -25,7 +25,7 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "sass",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -35,7 +35,7 @@
 
             ],
             "styles": [
-              "src/styles.sass",
+              "src/styles.scss",
               "./node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css"
             ],
             "scripts": [
